@@ -57,6 +57,13 @@ function flattenSelection(
   return portions;
 }
 
+function formatPortionAmount(portion: Portion) {
+  if (portion.unit === "piece") {
+    return `${portion.amount} pc${portion.amount === 1 ? "" : "s"}`;
+  }
+  return `${portion.amount}${portion.unit}`;
+}
+
 function resizePlanDays(plan: WeeklyPlan, dayCount: 5 | 7): WeeklyPlan {
   const nextDays = makeDefaultDays(dayCount);
   const existingById = new Map(plan.days.map((d) => [d.id, d]));
@@ -101,6 +108,19 @@ export default function App() {
     return names.length ? names.join(" + ") : "—";
   }
 
+  function mealPortionSummary(sel: MealSelection | undefined) {
+    const portions = flattenSelection(sel, recipes, allOptions);
+    if (!portions.length) return "";
+
+    return portions
+      .map((portion) => {
+        const ingredient = ingredients.get(portion.ingredientId);
+        const name = ingredient?.name ?? portion.ingredientId;
+        return `${name} ${formatPortionAmount(portion)}`;
+      })
+      .join(", ");
+  }
+
   function exportWeekText() {
     const lines: string[] = [];
     lines.push(`Weekly plan (${plan.days.length} days)`);
@@ -109,12 +129,23 @@ export default function App() {
 
     plan.days.forEach((d, idx) => {
       const t = dayTotals[idx];
+      const breakfastSummary = mealPortionSummary(d.breakfast);
+      const preSummary = mealPortionSummary(d.preWorkoutSnack);
+      const lunchSummary = mealPortionSummary(d.lunch);
+      const dinnerSummary = mealPortionSummary(d.dinner);
+      const treatSummary = mealPortionSummary(d.afterDinnerTreat);
+
       lines.push(`${d.label} — ${Math.round(t.kcal)} kcal, ${Math.round(t.protein)}g protein`);
       lines.push(`  Breakfast: ${mealName(d.breakfast)}`);
+      if (breakfastSummary) lines.push(`    ${breakfastSummary}`);
       lines.push(`  Pre-workout: ${mealName(d.preWorkoutSnack)}`);
+      if (preSummary) lines.push(`    ${preSummary}`);
       lines.push(`  Lunch: ${mealName(d.lunch)}`);
+      if (lunchSummary) lines.push(`    ${lunchSummary}`);
       lines.push(`  Dinner: ${mealName(d.dinner)}`);
+      if (dinnerSummary) lines.push(`    ${dinnerSummary}`);
       lines.push(`  Treat: ${mealName(d.afterDinnerTreat)}`);
+      if (treatSummary) lines.push(`    ${treatSummary}`);
       lines.push("");
     });
 
@@ -300,22 +331,47 @@ export default function App() {
                         <div>
                           <div className="small">Breakfast</div>
                           <div style={{ fontSize: 13 }}>{mealName(day.breakfast)}</div>
+                          {mealPortionSummary(day.breakfast) && (
+                            <div className="small" style={{ marginTop: 4, lineHeight: 1.4 }}>
+                              {mealPortionSummary(day.breakfast)}
+                            </div>
+                          )}
                         </div>
                         <div>
                           <div className="small">Pre-workout</div>
                           <div style={{ fontSize: 13 }}>{mealName(day.preWorkoutSnack)}</div>
+                          {mealPortionSummary(day.preWorkoutSnack) && (
+                            <div className="small" style={{ marginTop: 4, lineHeight: 1.4 }}>
+                              {mealPortionSummary(day.preWorkoutSnack)}
+                            </div>
+                          )}
                         </div>
                         <div>
                           <div className="small">Lunch</div>
                           <div style={{ fontSize: 13 }}>{mealName(day.lunch)}</div>
+                          {mealPortionSummary(day.lunch) && (
+                            <div className="small" style={{ marginTop: 4, lineHeight: 1.4 }}>
+                              {mealPortionSummary(day.lunch)}
+                            </div>
+                          )}
                         </div>
                         <div>
                           <div className="small">Dinner</div>
                           <div style={{ fontSize: 13 }}>{mealName(day.dinner)}</div>
+                          {mealPortionSummary(day.dinner) && (
+                            <div className="small" style={{ marginTop: 4, lineHeight: 1.4 }}>
+                              {mealPortionSummary(day.dinner)}
+                            </div>
+                          )}
                         </div>
                         <div>
                           <div className="small">Treat</div>
                           <div style={{ fontSize: 13 }}>{mealName(day.afterDinnerTreat)}</div>
+                          {mealPortionSummary(day.afterDinnerTreat) && (
+                            <div className="small" style={{ marginTop: 4, lineHeight: 1.4 }}>
+                              {mealPortionSummary(day.afterDinnerTreat)}
+                            </div>
+                          )}
                         </div>
                       </div>
                     )}
