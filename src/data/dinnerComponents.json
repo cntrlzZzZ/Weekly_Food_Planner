@@ -1,0 +1,58 @@
+[
+  { "id": "dinner_veg_leafy_greens_180", "group": "veg", "name": "Salad base: Leafy greens 180g", "portions": [{ "ingredientId": "leafy_greens", "amount": 180, "unit": "g" }] },
+  { "id": "dinner_veg_spinach_180", "group": "veg", "name": "Salad base: Spinach 180g", "portions": [{ "ingredientId": "spinach", "amount": 180, "unit": "g" }] },
+
+  { "id": "dinner_veg_greek_salad_detailed", "group": "veg", "name": "Greek salad (detailed)", "portions": [
+    { "ingredientId": "tomato", "amount": 90, "unit": "g" },
+    { "ingredientId": "cucumber", "amount": 90, "unit": "g" },
+    { "ingredientId": "red_onion", "amount": 12, "unit": "g" },
+    { "ingredientId": "olives", "amount": 20, "unit": "g" }
+  ]},
+
+  { "id": "dinner_veg_tomato_cucumber_onion", "group": "veg", "name": "Salad: Tomato + cucumber + red onion", "portions": [
+    { "ingredientId": "tomato", "amount": 100, "unit": "g" },
+    { "ingredientId": "cucumber", "amount": 100, "unit": "g" },
+    { "ingredientId": "red_onion", "amount": 15, "unit": "g" }
+  ]},
+  { "id": "dinner_veg_tomato_cucumber_onion_spinach", "group": "veg", "name": "Salad: Tomato + cucumber + red onion + spinach", "portions": [
+    { "ingredientId": "spinach", "amount": 120, "unit": "g" },
+    { "ingredientId": "tomato", "amount": 70, "unit": "g" },
+    { "ingredientId": "cucumber", "amount": 70, "unit": "g" },
+    { "ingredientId": "red_onion", "amount": 12, "unit": "g" }
+  ]},
+  { "id": "dinner_veg_tomato_cucumber_onion_leafy", "group": "veg", "name": "Salad: Tomato + cucumber + red onion + leafy greens", "portions": [
+    { "ingredientId": "leafy_greens", "amount": 120, "unit": "g" },
+    { "ingredientId": "tomato", "amount": 70, "unit": "g" },
+    { "ingredientId": "cucumber", "amount": 70, "unit": "g" },
+    { "ingredientId": "red_onion", "amount": 12, "unit": "g" }
+  ]},
+
+  { "id": "dinner_veg_asparagus_250", "group": "veg", "name": "Veg side: Asparagus 250g", "portions": [{ "ingredientId": "asparagus", "amount": 250, "unit": "g" }] },
+  { "id": "dinner_veg_broccoli_250", "group": "veg", "name": "Veg side: Broccoli 250g", "portions": [{ "ingredientId": "broccoli", "amount": 250, "unit": "g" }] },
+  { "id": "dinner_veg_brussels_250", "group": "veg", "name": "Veg side: Brussels sprouts 250g", "portions": [{ "ingredientId": "brussels_sprouts", "amount": 250, "unit": "g" }] },
+  { "id": "dinner_veg_courgette_250", "group": "veg", "name": "Veg side: Courgette 250g", "portions": [{ "ingredientId": "courgette", "amount": 250, "unit": "g" }] },
+
+  { "id": "dinner_veg_sweet_potato_fries_250", "group": "veg", "name": "Side: Sweet potato fries (oven) 250g", "portions": [{ "ingredientId": "sweet_potato_fries_oven", "amount": 250, "unit": "g" }] },
+  { "id": "dinner_veg_sweet_potato_baked_250", "group": "veg", "name": "Side: Sweet potato (oven baked) 250g", "portions": [{ "ingredientId": "sweet_potato_baked", "amount": 250, "unit": "g" }] },
+
+  { "id": "dinner_protein_chicken_150", "group": "protein", "name": "Protein: Chicken 150g", "portions": [{ "ingredientId": "chicken_breast_cooked", "amount": 150, "unit": "g" }] },
+  { "id": "dinner_protein_turkey_150", "group": "protein", "name": "Protein: Turkey 150g", "portions": [{ "ingredientId": "turkey_breast_cooked", "amount": 150, "unit": "g" }] },
+  { "id": "dinner_protein_white_fish_150", "group": "protein", "name": "Protein: White fish 150g", "portions": [{ "ingredientId": "white_fish_cooked", "amount": 150, "unit": "g" }] },
+  { "id": "dinner_protein_tuna_cooked_150", "group": "protein", "name": "Protein: Tuna (cooked) 150g", "portions": [{ "ingredientId": "tuna_cooked", "amount": 150, "unit": "g" }] },
+  { "id": "dinner_protein_tuna_canned_150", "group": "protein", "name": "Protein: Tuna (canned water) 150g", "portions": [{ "ingredientId": "tuna_canned_water_drained", "amount": 150, "unit": "g" }] },
+  { "id": "dinner_protein_shrimp_150", "group": "protein", "name": "Protein: Shrimp 150g", "portions": [{ "ingredientId": "shrimp_cooked", "amount": 150, "unit": "g" }] },
+  { "id": "dinner_protein_scampi_150", "group": "protein", "name": "Protein: Scampi 150g", "portions": [{ "ingredientId": "scampi_cooked", "amount": 150, "unit": "g" }] },
+  { "id": "dinner_protein_octopus_150", "group": "protein", "name": "Protein: Octopus 150g", "portions": [{ "ingredientId": "octopus_cooked", "amount": 150, "unit": "g" }] },
+  { "id": "dinner_protein_steak_150", "group": "protein", "name": "Protein: Steak 150g", "portions": [{ "ingredientId": "steak_lean_cooked", "amount": 150, "unit": "g" }] },
+
+  { "id": "dinner_sauce_lemon_olive_10", "group": "sauce", "name": "Sauce: Lemon + olive oil (10g oil)", "portions": [
+    { "ingredientId": "olive_oil", "amount": 10, "unit": "g" },
+    { "ingredientId": "lemon_juice", "amount": 10, "unit": "g" }
+  ]},
+  { "id": "dinner_sauce_skyr_30", "group": "sauce", "name": "Sauce: Skyr sauce 30g", "portions": [{ "ingredientId": "yoghurt_sauce", "amount": 30, "unit": "g" }] },
+  { "id": "dinner_sauce_sriracha_mayo_10", "group": "sauce", "name": "Sauce: Sriracha mayo 10g", "portions": [{ "ingredientId": "sriracha_mayo", "amount": 10, "unit": "g" }] },
+
+  { "id": "dinner_extra_olives_20", "group": "extras", "name": "Extra: Olives 20g", "portions": [{ "ingredientId": "olives", "amount": 20, "unit": "g" }] },
+  { "id": "dinner_extra_greek_cheese_30", "group": "extras", "name": "Extra: Greek sheep/goat cheese 30g", "portions": [{ "ingredientId": "spar_naturpur_griechischer_bio_schaf_ziegenkaese", "amount": 30, "unit": "g" }] }
+
+]

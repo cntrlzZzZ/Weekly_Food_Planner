@@ -1,0 +1,203 @@
+[
+  {
+    "id": "pre_yoghurt_granola_berries",
+    "name": "Pre-workout — Arla Skyr + banana-oat protein mix + berries",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "arla_skyr_cremige_natur", "amount": 200, "unit": "g" },
+
+      { "ingredientId": "egg", "amount": 1, "unit": "piece" },
+      { "ingredientId": "banana", "amount": 120, "unit": "g" },
+      { "ingredientId": "oats", "amount": 25, "unit": "g" },
+      { "ingredientId": "on_whey_chocolate", "amount": 10, "unit": "g" },
+
+      { "ingredientId": "berries_mixed", "amount": 150, "unit": "g" }
+    ],
+    "tags": ["preworkout"]
+  },
+  {
+    "id": "pre_pistachio_peach_toast_skyr",
+    "name": "Pre-workout — Pistachio & peach toast + Arla Skyr",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "wholegrain_bread", "amount": 45, "unit": "g" },
+      { "ingredientId": "arla_skyr_cremige_natur", "amount": 170, "unit": "g" },
+      { "ingredientId": "peach", "amount": 150, "unit": "g" },
+      { "ingredientId": "pistachios", "amount": 12, "unit": "g" }
+    ],
+    "tags": ["preworkout"]
+  },
+  {
+    "id": "pre_almond_butter_pear_toast",
+    "name": "Pre-workout — Almond butter & pear toast",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "wholegrain_bread", "amount": 45, "unit": "g" },
+      { "ingredientId": "almond_butter", "amount": 12, "unit": "g" },
+      { "ingredientId": "pear", "amount": 180, "unit": "g" }
+    ],
+    "tags": ["preworkout"]
+  },
+  {
+    "id": "pre_strawberries_cottage",
+    "name": "Pre-workout — Strawberries + Landfrischkäse leicht",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "schaerdinger_landfrischkaese_leicht_natur", "amount": 200, "unit": "g" },
+      { "ingredientId": "strawberries", "amount": 200, "unit": "g" }
+    ],
+    "tags": ["preworkout"]
+  },
+  {
+    "id": "pre_bekind_40g",
+    "name": "Pre-workout — BE-KIND Dark Chocolate Nuts & Sea Salt (40g)",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "bekind_dark_choc_nuts_sea_salt_40g", "amount": 1, "unit": "piece" }
+    ],
+    "tags": ["preworkout"]
+  },
+  {
+    "id": "pre_bekind_mini_20g",
+    "name": "Pre-workout — BE-KIND Dark Chocolate Nuts & Sea Salt Mini (20g)",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "bekind_dark_choc_nuts_sea_salt_mini_20g", "amount": 1, "unit": "piece" }
+    ],
+    "tags": ["preworkout"]
+  },
+  {
+    "id": "pre_sriracha_mayo_tuna_rice_bowl",
+    "name": "Pre-workout — Sriracha mayo tuna rice bowl",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "rice_cooked", "amount": 150, "unit": "g" },
+      { "ingredientId": "tuna_canned_water_drained", "amount": 120, "unit": "g" },
+      { "ingredientId": "tomato", "amount": 80, "unit": "g" },
+      { "ingredientId": "cucumber", "amount": 80, "unit": "g" },
+      { "ingredientId": "spring_onion", "amount": 10, "unit": "g" },
+      { "ingredientId": "sriracha_mayo", "amount": 10, "unit": "g" }
+    ],
+    "tags": ["preworkout"]
+  },
+  {
+    "id": "pre_turkey_wrap",
+    "name": "Pre-workout — Turkey wrap (SPAR Vital High Protein wrap)",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "spar_vital_wraps_high_protein", "amount": 60, "unit": "g" },
+      { "ingredientId": "turkey_breast_cooked", "amount": 120, "unit": "g" },
+      { "ingredientId": "tomato", "amount": 60, "unit": "g" },
+      { "ingredientId": "cucumber", "amount": 60, "unit": "g" },
+      { "ingredientId": "leafy_greens", "amount": 40, "unit": "g" },
+      { "ingredientId": "sriracha_mayo", "amount": 15, "unit": "g" }
+    ],
+    "tags": ["preworkout"]
+  },
+  {
+    "id": "pre_cottage_fried_banana_honey",
+    "name": "Pre-workout — Landfrischkäse leicht + pan-fried banana (no oil) + cinnamon + wild honey",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "schaerdinger_landfrischkaese_leicht_natur", "amount": 200, "unit": "g" },
+      { "ingredientId": "banana", "amount": 120, "unit": "g" },
+      { "ingredientId": "wild_honey", "amount": 7, "unit": "g" },
+      { "ingredientId": "cinnamon", "amount": 2, "unit": "g" }
+    ],
+    "tags": ["preworkout"]
+  },
+
+  {
+    "id": "treat_berry_sorbet",
+    "name": "After dinner — Berry sorbet (frozen berries + lemon)",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "berries_mixed_frozen", "amount": 250, "unit": "g" },
+      { "ingredientId": "lemon_juice", "amount": 10, "unit": "g" },
+      { "ingredientId": "water", "amount": 30, "unit": "ml" }
+    ],
+    "tags": ["treat"]
+  },
+  {
+    "id": "treat_baked_apple",
+    "name": "After dinner — Baked apple (cinnamon)",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "apple", "amount": 220, "unit": "g" },
+      { "ingredientId": "cinnamon", "amount": 2, "unit": "g" }
+    ],
+    "tags": ["treat"]
+  },
+
+  {
+    "id": "treat_antioxidant_armour_bowl",
+    "name": "After dinner — Antioxidant Armour Bowl",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "berries_mixed", "amount": 150, "unit": "g" },
+      { "ingredientId": "pomegranate_arils", "amount": 120, "unit": "g" },
+      { "ingredientId": "grapes", "amount": 120, "unit": "g" }
+    ],
+    "tags": ["treat", "fruitbowl"]
+  },
+  {
+    "id": "treat_vitamin_c_glow_bowl",
+    "name": "After dinner — Vitamin C Glow Bowl",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "orange", "amount": 150, "unit": "g" },
+      { "ingredientId": "kiwi", "amount": 120, "unit": "g" },
+      { "ingredientId": "strawberries", "amount": 150, "unit": "g" },
+      { "ingredientId": "grapefruit", "amount": 120, "unit": "g" }
+    ],
+    "tags": ["treat", "fruitbowl"]
+  },
+  {
+    "id": "treat_hydration_electrolyte_bowl",
+    "name": "After dinner — Hydration & Electrolyte Bowl",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "watermelon", "amount": 200, "unit": "g" },
+      { "ingredientId": "orange", "amount": 150, "unit": "g" },
+      { "ingredientId": "kiwi", "amount": 120, "unit": "g" },
+      { "ingredientId": "grapes", "amount": 120, "unit": "g" }
+    ],
+    "tags": ["treat", "fruitbowl"]
+  },
+  {
+    "id": "treat_gut_friendly_tropical_bowl",
+    "name": "After dinner — Gut-Friendly Tropical Bowl",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "pineapple", "amount": 160, "unit": "g" },
+      { "ingredientId": "papaya", "amount": 160, "unit": "g" },
+      { "ingredientId": "kiwi", "amount": 120, "unit": "g" },
+      { "ingredientId": "berries_mixed", "amount": 120, "unit": "g" }
+    ],
+    "tags": ["treat", "fruitbowl"]
+  },
+  {
+    "id": "treat_training_day_carbs_bowl",
+    "name": "After dinner — Training Day Carbs Bowl",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "banana", "amount": 120, "unit": "g" },
+      { "ingredientId": "grapes", "amount": 150, "unit": "g" },
+      { "ingredientId": "orange", "amount": 150, "unit": "g" },
+      { "ingredientId": "berries_mixed", "amount": 120, "unit": "g" }
+    ],
+    "tags": ["treat", "fruitbowl"]
+  },
+  {
+    "id": "treat_chill_evening_bowl",
+    "name": "After dinner — Chill Evening Bowl",
+    "mealType": "snack",
+    "portions": [
+      { "ingredientId": "watermelon", "amount": 200, "unit": "g" },
+      { "ingredientId": "strawberries", "amount": 150, "unit": "g" },
+      { "ingredientId": "peach", "amount": 150, "unit": "g" },
+      { "ingredientId": "grapes", "amount": 120, "unit": "g" }
+    ],
+    "tags": ["treat", "fruitbowl"]
+  }
+]

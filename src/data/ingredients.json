@@ -1,0 +1,121 @@
+[
+  { "id": "water", "name": "Water", "category": "other", "unitDefault": "ml", "per100g": { "kcal": 0, "protein": 0, "carbs": 0, "fat": 0 } },
+
+  { "id": "wholegrain_bread", "name": "Wholegrain bread (generic)", "category": "carb", "unitDefault": "g", "per100g": { "kcal": 245, "protein": 9, "carbs": 46, "fat": 3.5 } },
+
+  { "id": "spar_naturpur_bio_eiweissbrot", "name": "SPAR Natur*pur Bio-Eiweißbrot", "category": "carb", "unitDefault": "g",
+    "per100g": { "kcal": 208, "protein": 17, "carbs": 16, "fat": 6.1 } },
+
+  { "id": "spar_vital_weckerl_high_protein_lower_carb", "name": "SPAR Vital Weckerl High Protein & Lower Carb", "category": "carb", "unitDefault": "g",
+    "per100g": { "kcal": 275, "protein": 21, "carbs": 25, "fat": 8.6 } },
+
+  { "id": "spar_vital_wraps_high_protein", "name": "SPAR Vital Wraps High Protein", "category": "carb", "unitDefault": "g",
+    "per100g": { "kcal": 287, "protein": 15, "carbs": 40, "fat": 6 } },
+
+  { "id": "wholegrain_wrap", "name": "Wholegrain wrap (generic)", "category": "carb", "unitDefault": "g", "per100g": { "kcal": 290, "protein": 9, "carbs": 49, "fat": 6 } },
+
+  { "id": "rice_cooked", "name": "Rice, cooked", "category": "carb", "unitDefault": "g", "per100g": { "kcal": 130, "protein": 2.7, "carbs": 28, "fat": 0.3 } },
+  { "id": "quinoa_cooked", "name": "Quinoa, cooked", "category": "carb", "unitDefault": "g", "per100g": { "kcal": 120, "protein": 4.4, "carbs": 21.3, "fat": 1.9 } },
+
+  { "id": "sweet_potato_baked", "name": "Sweet potato, baked", "category": "carb", "unitDefault": "g", "per100g": { "kcal": 90, "protein": 2.0, "carbs": 20.7, "fat": 0.1 } },
+  { "id": "sweet_potato_fries_oven", "name": "Sweet potato fries (oven)", "category": "carb", "unitDefault": "g", "per100g": { "kcal": 120, "protein": 2.0, "carbs": 23.0, "fat": 2.5 } },
+
+  { "id": "oats", "name": "Oats", "category": "carb", "unitDefault": "g", "per100g": { "kcal": 389, "protein": 16.9, "carbs": 66.27, "fat": 6.9 } },
+
+  { "id": "on_whey_chocolate", "name": "Optimum Nutrition whey protein (chocolate)", "category": "protein", "unitDefault": "g",
+    "per100g": { "kcal": 395, "protein": 78.9, "carbs": 9.9, "fat": 3.3 } },
+
+  { "id": "avocado", "name": "Avocado", "category": "fat", "unitDefault": "g", "per100g": { "kcal": 160, "protein": 2, "carbs": 8.5, "fat": 14.7 } },
+  { "id": "olive_oil", "name": "Olive oil", "category": "fat", "unitDefault": "g", "per100g": { "kcal": 884, "protein": 0, "carbs": 0, "fat": 100 } },
+  { "id": "wild_honey", "name": "Wild honey", "category": "pantry", "unitDefault": "g", "per100g": { "kcal": 304, "protein": 0.3, "carbs": 82, "fat": 0 } },
+
+  { "id": "lemon_juice", "name": "Lemon juice", "category": "pantry", "unitDefault": "g", "per100g": { "kcal": 22, "protein": 0.4, "carbs": 6.9, "fat": 0.2 } },
+  { "id": "orange_grapefruit_juice_fresh", "name": "Fresh orange + grapefruit juice (combined)", "category": "fruit", "unitDefault": "ml",
+    "per100g": { "kcal": 40, "protein": 0.6, "carbs": 9.5, "fat": 0.1 } },
+
+  { "id": "egg", "name": "Egg", "category": "protein", "unitDefault": "piece",
+    "perPiece": { "kcal": 78, "protein": 6.3, "carbs": 0.6, "fat": 5.3 } },
+
+  { "id": "spar_qualitaetsmarke_norwegischer_raeucherlachs", "name": "SPAR Qualitätsmarke Norwegischer Räucherlachs", "category": "protein", "unitDefault": "g",
+    "per100g": { "kcal": 182, "protein": 20, "carbs": 0, "fat": 11 } },
+
+  { "id": "chicken_breast_cooked", "name": "Chicken breast, cooked", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 165, "protein": 31, "carbs": 0, "fat": 3.6 } },
+  { "id": "turkey_breast_cooked", "name": "Turkey breast, cooked", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 135, "protein": 29, "carbs": 0, "fat": 1.5 } },
+
+  { "id": "white_fish_cooked", "name": "White fish (cooked)", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 105, "protein": 23, "carbs": 0, "fat": 1.0 } },
+
+  { "id": "tuna_cooked", "name": "Tuna (cooked)", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 130, "protein": 29.2, "carbs": 0, "fat": 0.6 } },
+  { "id": "tuna_canned_water_drained", "name": "Tuna (canned in water, drained)", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 116, "protein": 26, "carbs": 0, "fat": 1.0 } },
+
+  { "id": "shrimp_cooked", "name": "Shrimp/prawns (cooked)", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 99, "protein": 24, "carbs": 0.2, "fat": 0.3 } },
+  { "id": "scampi_cooked", "name": "Scampi (cooked)", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 105, "protein": 23, "carbs": 1, "fat": 1 } },
+  { "id": "octopus_cooked", "name": "Octopus (cooked)", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 82, "protein": 15, "carbs": 2, "fat": 1 } },
+  { "id": "steak_lean_cooked", "name": "Steak (lean, cooked)", "category": "protein", "unitDefault": "g", "per100g": { "kcal": 200, "protein": 26, "carbs": 0, "fat": 10 } },
+
+  { "id": "arla_skyr_cremige_natur", "name": "Arla Skyr Der Cremige Natur", "category": "dairy", "unitDefault": "g",
+    "per100g": { "kcal": 102, "protein": 9.6, "carbs": 3.9, "fat": 5 } },
+
+  { "id": "yoghurt_sauce", "name": "Skyr sauce (based on Arla Skyr)", "category": "dairy", "unitDefault": "g",
+    "per100g": { "kcal": 102, "protein": 9.6, "carbs": 3.9, "fat": 5 } },
+
+  { "id": "schaerdinger_landfrischkaese_leicht_natur", "name": "Schärdinger Schlanke Linie Landfrischkäse leicht Natur", "category": "dairy", "unitDefault": "g",
+    "per100g": { "kcal": 81, "protein": 14, "carbs": 5, "fat": 0.5 } },
+
+  { "id": "spar_naturpur_griechischer_bio_schaf_ziegenkaese", "name": "SPAR Natur*pur Griechischer Bio-Schaf- & Ziegenkäse", "category": "dairy", "unitDefault": "g",
+    "per100g": { "kcal": 287, "protein": 18, "carbs": 0.5, "fat": 24 } },
+
+  { "id": "nut_butter_mixed", "name": "Nut butter (mixed)", "category": "fat", "unitDefault": "g", "per100g": { "kcal": 610, "protein": 22, "carbs": 18, "fat": 52 } },
+  { "id": "almond_butter", "name": "Almond butter", "category": "fat", "unitDefault": "g", "per100g": { "kcal": 614, "protein": 21, "carbs": 19, "fat": 56 } },
+  { "id": "pistachios", "name": "Pistachios", "category": "fat", "unitDefault": "g", "per100g": { "kcal": 560, "protein": 20, "carbs": 28, "fat": 45 } },
+
+  { "id": "tomato", "name": "Tomato", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 18, "protein": 0.9, "carbs": 3.9, "fat": 0.2 } },
+  { "id": "cucumber", "name": "Cucumber", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 15, "protein": 0.7, "carbs": 3.6, "fat": 0.1 } },
+  { "id": "red_onion", "name": "Red onion", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 40, "protein": 1.1, "carbs": 9.3, "fat": 0.1 } },
+  { "id": "spring_onion", "name": "Spring onion", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 32, "protein": 1.8, "carbs": 7.3, "fat": 0.2 } },
+
+  { "id": "bell_pepper", "name": "Bell pepper", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 31, "protein": 1.0, "carbs": 6.0, "fat": 0.3 } },
+  { "id": "garlic", "name": "Garlic", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 149, "protein": 6.4, "carbs": 33.1, "fat": 0.5 } },
+
+  { "id": "leafy_greens", "name": "Leafy greens (mixed)", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 20, "protein": 2, "carbs": 3, "fat": 0.3 } },
+  { "id": "spinach", "name": "Spinach", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 23, "protein": 2.9, "carbs": 3.6, "fat": 0.4 } },
+
+  { "id": "asparagus", "name": "Asparagus", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 20, "protein": 2.2, "carbs": 3.9, "fat": 0.1 } },
+  { "id": "broccoli", "name": "Broccoli", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 34, "protein": 2.8, "carbs": 6.6, "fat": 0.4 } },
+  { "id": "brussels_sprouts", "name": "Brussels sprouts", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 43, "protein": 3.4, "carbs": 9.0, "fat": 0.3 } },
+  { "id": "courgette", "name": "Courgette (zucchini)", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 17, "protein": 1.2, "carbs": 3.1, "fat": 0.3 } },
+
+  { "id": "olives", "name": "Olives", "category": "fat", "unitDefault": "g", "per100g": { "kcal": 145, "protein": 1, "carbs": 4, "fat": 15 } },
+  { "id": "capers", "name": "Capers", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 23, "protein": 2.4, "carbs": 4.9, "fat": 0.9 } },
+
+  { "id": "sriracha_mayo", "name": "Sriracha mayo", "category": "fat", "unitDefault": "g", "per100g": { "kcal": 650, "protein": 1, "carbs": 6, "fat": 70 } },
+
+  { "id": "paprika", "name": "Paprika", "category": "pantry", "unitDefault": "g", "per100g": { "kcal": 282, "protein": 14.1, "carbs": 54.7, "fat": 12.9 } },
+  { "id": "cumin", "name": "Cumin", "category": "pantry", "unitDefault": "g", "per100g": { "kcal": 375, "protein": 17.8, "carbs": 44.2, "fat": 22.3 } },
+  { "id": "parsley", "name": "Parsley", "category": "veg", "unitDefault": "g", "per100g": { "kcal": 36, "protein": 3, "carbs": 6.3, "fat": 0.8 } },
+
+  { "id": "cinnamon", "name": "Cinnamon", "category": "pantry", "unitDefault": "g", "per100g": { "kcal": 247, "protein": 4, "carbs": 81, "fat": 1.2 } },
+
+  { "id": "strawberries", "name": "Strawberries", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 32, "protein": 0.7, "carbs": 7.7, "fat": 0.3 } },
+  { "id": "berries_mixed", "name": "Berries (mixed)", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 45, "protein": 1.0, "carbs": 10.0, "fat": 0.3 } },
+  { "id": "berries_mixed_frozen", "name": "Berries (mixed, frozen)", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 45, "protein": 1.0, "carbs": 10.0, "fat": 0.3 } },
+
+  { "id": "apple", "name": "Apple", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 52, "protein": 0.3, "carbs": 14, "fat": 0.2 } },
+  { "id": "banana", "name": "Banana", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 89, "protein": 1.1, "carbs": 23, "fat": 0.3 } },
+  { "id": "pear", "name": "Pear", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 57, "protein": 0.4, "carbs": 15, "fat": 0.1 } },
+  { "id": "peach", "name": "Peach", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 39, "protein": 0.9, "carbs": 10, "fat": 0.3 } },
+
+  { "id": "orange", "name": "Orange", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 47, "protein": 0.9, "carbs": 12, "fat": 0.1 } },
+  { "id": "grapefruit", "name": "Grapefruit", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 42, "protein": 0.8, "carbs": 10.7, "fat": 0.1 } },
+  { "id": "kiwi", "name": "Kiwi", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 61, "protein": 1.1, "carbs": 15, "fat": 0.5 } },
+  { "id": "grapes", "name": "Grapes", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 69, "protein": 0.7, "carbs": 18, "fat": 0.2 } },
+  { "id": "pomegranate_arils", "name": "Pomegranate arils", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 83, "protein": 1.7, "carbs": 19, "fat": 1.2 } },
+  { "id": "watermelon", "name": "Watermelon", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 30, "protein": 0.6, "carbs": 7.6, "fat": 0.2 } },
+  { "id": "pineapple", "name": "Pineapple", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 50, "protein": 0.5, "carbs": 13, "fat": 0.1 } },
+  { "id": "papaya", "name": "Papaya", "category": "fruit", "unitDefault": "g", "per100g": { "kcal": 43, "protein": 0.5, "carbs": 11, "fat": 0.3 } },
+
+  { "id": "bekind_dark_choc_nuts_sea_salt_40g", "name": "BE-KIND Dark Chocolate Nuts & Sea Salt (40g bar)", "category": "other", "unitDefault": "piece",
+    "perPiece": { "kcal": 209, "protein": 6.8, "carbs": 9.6, "fat": 14.8 } },
+
+  { "id": "bekind_dark_choc_nuts_sea_salt_mini_20g", "name": "BE-KIND Dark Chocolate Nuts & Sea Salt Mini (20g bar)", "category": "other", "unitDefault": "piece",
+    "perPiece": { "kcal": 99, "protein": 2.8, "carbs": 4.6, "fat": 7.4 } }
+]

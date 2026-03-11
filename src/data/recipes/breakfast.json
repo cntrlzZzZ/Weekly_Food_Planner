@@ -1,0 +1,79 @@
+[
+  {
+    "id": "breakfast_option_a",
+    "name": "Option A — Bio Eiweißbrot + avocado tomato + Räucherlachs + capers + fresh citrus juice",
+    "mealType": "breakfast",
+    "portions": [
+      { "ingredientId": "spar_naturpur_bio_eiweissbrot", "amount": 40, "unit": "g" },
+      { "ingredientId": "avocado", "amount": 50, "unit": "g" },
+      { "ingredientId": "tomato", "amount": 80, "unit": "g" },
+      { "ingredientId": "lemon_juice", "amount": 10, "unit": "g" },
+      { "ingredientId": "spar_qualitaetsmarke_norwegischer_raeucherlachs", "amount": 60, "unit": "g" },
+      { "ingredientId": "capers", "amount": 10, "unit": "g" },
+      { "ingredientId": "orange_grapefruit_juice_fresh", "amount": 250, "unit": "ml" }
+    ],
+    "tags": ["lighter"]
+  },
+  {
+    "id": "breakfast_option_b",
+    "name": "Option B — Arla Skyr + banana-oat protein mix + berries + nut butter",
+    "mealType": "breakfast",
+    "portions": [
+      { "ingredientId": "arla_skyr_cremige_natur", "amount": 200, "unit": "g" },
+      { "ingredientId": "egg", "amount": 1, "unit": "piece" },
+      { "ingredientId": "banana", "amount": 120, "unit": "g" },
+      { "ingredientId": "oats", "amount": 30, "unit": "g" },
+      { "ingredientId": "on_whey_chocolate", "amount": 12, "unit": "g" },
+      { "ingredientId": "berries_mixed", "amount": 120, "unit": "g" },
+      { "ingredientId": "nut_butter_mixed", "amount": 10, "unit": "g" }
+    ],
+    "tags": ["lighter"]
+  },
+  {
+    "id": "breakfast_shakshuka_jerusalem",
+    "name": "Breakfast — Jerusalem shakshuka (eggs + sheep/goat cheese) + high-protein weckerl",
+    "mealType": "breakfast",
+    "portions": [
+      { "ingredientId": "olive_oil", "amount": 5, "unit": "g" },
+      { "ingredientId": "red_onion", "amount": 40, "unit": "g" },
+      { "ingredientId": "bell_pepper", "amount": 120, "unit": "g" },
+      { "ingredientId": "tomato", "amount": 250, "unit": "g" },
+      { "ingredientId": "garlic", "amount": 6, "unit": "g" },
+      { "ingredientId": "paprika", "amount": 2, "unit": "g" },
+      { "ingredientId": "cumin", "amount": 1, "unit": "g" },
+      { "ingredientId": "egg", "amount": 2, "unit": "piece" },
+      { "ingredientId": "spar_naturpur_griechischer_bio_schaf_ziegenkaese", "amount": 40, "unit": "g" },
+      { "ingredientId": "spar_vital_weckerl_high_protein_lower_carb", "amount": 70, "unit": "g" }
+    ],
+    "tags": ["protein_boost"]
+  },
+  {
+    "id": "breakfast_mediterranean_omelet",
+    "name": "Breakfast — Mediterranean omelet (spinach + tomato + sheep/goat cheese) + Eiweißbrot",
+    "mealType": "breakfast",
+    "portions": [
+      { "ingredientId": "olive_oil", "amount": 5, "unit": "g" },
+      { "ingredientId": "egg", "amount": 2, "unit": "piece" },
+      { "ingredientId": "spinach", "amount": 80, "unit": "g" },
+      { "ingredientId": "tomato", "amount": 80, "unit": "g" },
+      { "ingredientId": "spar_naturpur_griechischer_bio_schaf_ziegenkaese", "amount": 30, "unit": "g" },
+      { "ingredientId": "parsley", "amount": 5, "unit": "g" },
+      { "ingredientId": "spar_naturpur_bio_eiweissbrot", "amount": 40, "unit": "g" }
+    ],
+    "tags": ["protein_boost"]
+  },
+  {
+    "id": "breakfast_turkey_wrap",
+    "name": "Breakfast — Turkey wrap (SPAR Vital High Protein wrap)",
+    "mealType": "breakfast",
+    "portions": [
+      { "ingredientId": "spar_vital_wraps_high_protein", "amount": 60, "unit": "g" },
+      { "ingredientId": "turkey_breast_cooked", "amount": 120, "unit": "g" },
+      { "ingredientId": "leafy_greens", "amount": 40, "unit": "g" },
+      { "ingredientId": "tomato", "amount": 60, "unit": "g" },
+      { "ingredientId": "cucumber", "amount": 60, "unit": "g" },
+      { "ingredientId": "sriracha_mayo", "amount": 15, "unit": "g" }
+    ],
+    "tags": ["protein_boost"]
+  }
+]
