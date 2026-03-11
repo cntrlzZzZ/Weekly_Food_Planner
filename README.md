@@ -1,4 +1,4 @@
-# Med Bowl Planner
+# Mediterrenean Weekly Food Planner
 
 A data-driven weekly meal planner built with React, TypeScript, and Vite. It is designed for quickly tailoring a nutrition plan to a specific client, adjusting meals and portions, and generating a practical shopping list from the current week.
 
@@ -95,7 +95,7 @@ Use this file to change:
 - the day labels
 - default calorie and protein targets
 
-### 5. Update the UI style for your portfolio or a client brand
+### 5. Update the UI style for your project or a client
 
 Edit:
 - [src/styles/globals.css](src/styles/globals.css)
@@ -115,14 +115,11 @@ Use these files to adjust layout, typography, spacing, and planner interactions.
 
 
 ## Screenshots and GIFs
+TODO
 
-Add product visuals here to make the repository presentation stronger.
-
-Recommended asset path:
+Asset path:
 - `docs/screenshots/`
 - `docs/gifs/`
-
-Example section:
 
 ```md
 ## Screenshots and GIFs
@@ -136,13 +133,6 @@ Example section:
 ### Planner Interaction Demo
 ![Planner demo](docs/gifs/planner-demo.gif)
 ```
-
-Suggested visuals:
-- full weekly planner view
-- one expanded day card
-- shopping list screen
-- analytics screen
-- a short GIF showing meal editing or day expand/collapse interaction
 
 ## Project Structure
 
@@ -165,4 +155,4 @@ Structure overview:
 
 ## Portfolio Summary
 
-Med Bowl Planner is a small product-style frontend focused on practical nutrition planning. The project demonstrates data modeling, reusable meal composition, derived shopping-list generation, analytics summaries, and a UI that can be retargeted quickly for different users without needing a backend.
+Mediterrenean Weekly Food Planner is a small product-style frontend focused on practical nutrition planning. The project demonstrates data modeling, reusable meal composition, derived shopping-list generation, analytics summaries, and a UI that can be retargeted quickly for different users without needing a backend.
